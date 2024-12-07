@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Rouge+Script&family=Sedgwick+Ave&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button, h1, h2, h3, p { 
+    font-family: "Playfair Display", sans-serif;
+    color: azure;   
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.MainHeader{ 
+    display: flex; 
+    width: 100Vw; 
+    height: 8Vh;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.NameTitle{ 
+    display: flex; 
+    justify-content: center;
+    width: 20Vw; 
+    height: 50Vh;
+    margin-left: 40%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.NameTitle h2 { 
+    font-family: "Rouge Script", sans-serif;
+    font-size: 10em; 
+    white-space: nowrap;
+    font-weight: 20;
+    
+}
+
+
+.NavBar{ 
+    display: flex; 
+    width: 30Vw;
+    height: 4Vh;
+    margin-left: auto;
+    justify-content: flex-end;
+    background-color: black;
+    list-style: none;
+}
+
+.NavBar li { 
+    display: inline-block;
+    padding: 0px 20px; 
+}
+
+.BnW{ 
+    display: flex;
+    width: 100Vw;
+    height: 12Vh;
+}
+
+
+.Content{ 
+    display: flex; 
+    margin-top: 5Vh;
+    margin-left: 5Vw;
+    margin-right: 5Vw;
+
+}
