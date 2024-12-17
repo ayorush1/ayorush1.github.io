@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-li, a, button, h1, h2, h3, p { 
+li, a, button, h1, h2, h3, h4, p { 
     font-family: "Playfair Display", sans-serif;
     color: azure;   
 }
@@ -91,11 +91,38 @@ a:hover {
     height: 2.75vh;  
 }
 
+.Content{ 
+
+}
+
 .PictureOfMe{ 
     width: 35%;
-    position: relative; 
+    position: absolute; 
     left: 60%; 
+    top: 100vh; 
+
+}
+
+.DescriptionOfMe{ 
+    position: absolute;
+    left: 15Vw;
+    bottom: -40vh; 
+
+}
+
+.DescriptionOfMe p { 
+
+    width: 27vw;
 
 }
 
 
+.hidden { 
+    opacity: 0;
+    transition: all 1s; 
+}
+
+
+.show { 
+    opacity: 1; 
+}
