@@ -5,7 +5,10 @@
     box-sizing: border-box;
     margin: 0; 
     padding: 0;
-    background-color: black;
+    background-color: black;    
+}
+
+body {
     overflow-x: hidden;
 }
 
@@ -32,13 +35,14 @@ a:hover {
 
 
 .NameTitle{ 
+    position: relative;
     display: flex; 
     justify-content: center;
-    width: 20Vw; 
     height: 50Vh;
-    margin-left: 40%;
+    margin: auto;
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
+    /* border: 2px solid red; */ 
 
 }
 
@@ -46,12 +50,13 @@ a:hover {
     font-family: "Rouge Script", sans-serif;
     font-size: 10em; 
     white-space: nowrap;
-    font-weight: 20;
-    
+    font-weight: 20;    
 }
 
 
 .NavBar{ 
+    position: relative;
+    right: 0;
     display: flex; 
     width: 30Vw;
     height: 4Vh;
@@ -72,11 +77,27 @@ a:hover {
     height: 12Vh;
 }
 
+.StarImage{ 
 
-.Content{ 
-    display: flex; 
-    margin-top: 5Vh;
-    margin-left: 5Vw;
-    margin-right: 5Vw;
+    position: absolute; /* Position it relative to the closest parent with position: relative */
+    top: 45%; /* Center vertically */
+    left: 49.5%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning to truly center */
+
+    position: fixed; 
+    vertical-align: middle;
+    margin: auto;
+    width: 2.75vw;
+    height: 2.75vh;  
+}
+
+.PictureOfMe{ 
+
+    width: 20%
+    
+
+
 
 }
+
+
